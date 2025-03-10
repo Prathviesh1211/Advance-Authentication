@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "backend/index.js",
   "scripts": {
-    "dev":"nodemon backend/index.js"
+    "dev": "nodemon backend/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,9 +17,11 @@
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
     "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mailtrap": "^4.0.0",
+    "mongodb": "^6.14.2",
     "mongoose": "^8.12.1"
   }
 }
